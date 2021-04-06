@@ -5,66 +5,66 @@
 /* -------THIS PART IS CSS FOR HEADER---------- */
 
 header img {
-    float: left;
-    width: 90px;
-    height: 60px;
-    background: #000;   
-  }
-  header h1 {
-      text-align: center;
-      padding-top: 10px;
-      font-size: 40px;
-      color: white;
-      line-height: 1;
-      margin: 0;
-      font-family: "Helvetica",sans-serif;
-  }
-  header{
-  background-color:black;   
-  height: 80px;    
-  top: 0;
-  padding-top: 10px;   
-  }
-  header a{
-      color: white;
-      text-decoration: none;
-  }
-  
-  /* -------THIS PART IS CSS FOR HEADER---------- */
-  /* -------THIS PART IS CSS FOR NAV---------- */
-  .line {
-    border: 2px solid #FBC410 ;
-  }
-  
-  .line:hover {
-    -ms-transform: scale(1.05); 
-    -webkit-transform: scale(1.05); 
-    transform: scale(1.05); 
-  }
-  
-  button{
-  color: #000000 !important;
-  text-transform: uppercase;
-  background: #ffffff;
-  padding: 20px;
-  border: 4px solid #FBC410 !important;
-  border-radius: 6px;
-  display: inline-block;
-  transition: all 0.3s ease 0s;
-  }
-  
-  button:hover {
-  color: #000000 !important;
-  border-radius: 50px;
-  border-color: #494949 !important;
-  transition: all 0.3s ease 0s;
-  }
-  
-  .disabled {
-    opacity: 0.6;
-    cursor: not-allowed;
-  }
-  
+  float: left;
+  width: 90px;
+  height: 60px;
+  background: #000;   
+}
+header h1 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    color: white;
+    line-height: 1;
+    margin: 0;
+    font-family: "Helvetica",sans-serif;
+}
+header{
+background-color:black;   
+height: 80px;    
+top: 0;
+padding-top: 10px;   
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+/* -------THIS PART IS CSS FOR HEADER---------- */
+
+/* -------THIS PART IS CSS FOR NAV---------- */
+.line {
+  border: 2px solid #FBC410 ;
+}
+
+.line:hover {
+  -ms-transform: scale(1.05); 
+  -webkit-transform: scale(1.05); 
+  transform: scale(1.05); 
+}
+
+button{
+color: #000000 !important;
+text-transform: uppercase;
+background: #ffffff;
+padding: 20px;
+border: 4px solid #FBC410 !important;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+}
+
+button:hover {
+color: #000000 !important;
+border-radius: 50px;
+border-color: #494949 !important;
+transition: all 0.3s ease 0s;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
 
 nav a:link{
     color : #000000;
@@ -98,17 +98,979 @@ body {
     margin: 0;
     padding:0;  
 }
+
 /* -------THIS PART IS CSS FOR FOOTER---------- */
-  
+
 footer   { background-color: #000000;
-    color: white;
-    font-size: 1em;
-    padding : 1em;
-    width: 100%;
-    position: relative;
-    clear: both;
-  }
+           color: white;
+		   font-size: 1em;
+           padding : 1em;
+           width: 100%;
+           position: relative;
+           clear: both;
+         }
 footer a{
-color:white;
-text-decoration: none;
+    color:white;
+    text-decoration: none;
 }
+
+/* -------THIS PART IS CSS FOR FOOTER---------- */
+
+.promise{
+    margin: 15px 80px 15px 80px;
+    background-color: #F4F4F4;
+    padding: 20px;
+    box-shadow: 0 8px 6px -6px black;
+}
+div.promise p{
+    text-align: center;
+    font-size: 20px;
+}
+.prommsg{
+    font-weight: bold;
+}
+
+div.orderitem{
+    width: 270px;
+    height: 470px;
+/*    box-shadow: 0 8px 6px -6px black;*/
+    box-shadow: 0 0 4px black;
+    background-color: #F4F4F4;
+    padding: 10px;
+    margin: 15px 40px 15px 40px;
+    text-align: center;
+}
+.productsgrid {
+  display: flex;
+  margin-left: 110px;
+  margin-right: 110px;    
+}
+
+.productsgrid > div {
+  background-color: #f1f1f1;
+  margin: 20px;
+  padding: 20px;
+}
+main{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nyr{
+    text-align: center;
+    font-size: 18px;
+    padding-top:20px; 
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+a.linkto{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.footergrid {
+  display: flex;
+  margin-left: 60px;
+  margin-right: 60px;    
+}
+
+.footergrid > div {
+  margin: 30px;
+  padding: 10px;
+}
+.footerrow li{
+    list-style: none;
+    line-height: 1.5;
+}
+.yel{
+    color: #FBC410;
+}
+.day{
+    color: #D1D1D1;
+    padding-right: 30px;
+}
+.footerrow ol{
+    display: inline-block;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+.form-control{
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    border: 1px solid #000; 
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.contact{
+    margin-top: 10px;
+    color: #FBC410;
+}
+.orderinfo{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.ordersinfo > div {
+  background-color: #f1f1f1;
+  margin: 20px;
+  padding: 20px;
+}
+
+.ordersteps{
+    margin: 10px;
+    text-align: center;
+}
+p.prom{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+}
+.orderpanel{
+    background-color: #F4F4F4;
+    margin-left: 60px;
+    margin-right: 60px;
+    box-shadow: 0 8px 6px -6px black;
+}
+.cards{
+    display: flex;
+    margin-left: 500px;
+    margin-right: 500px;
+    height: 60px;
+    width: auto;
+    padding-top: 10px;
+}
+.cards > img{
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 38px;
+}
+#cardtxt{
+    padding-right:40px;
+}
+.copyright{
+    text-align: center;
+    text-decoration: none;
+}
+/*
+.newyeareve{
+    margin-left: 250px;
+    margin-right: auto;
+    margin-top: 10px;
+}
+*/
+#headbanner{
+    width: 80%;
+    height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    text-align: center;
+}
+#bannerimg{
+   border:1px solid #021a40;
+/*   width: 1518px;*/
+    width: 100%;
+}
+.landingbanner
+{
+   position: relative;
+   text-align: center;  
+}
+h1.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Helvetica",sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #ECE9E7;    
+}
+
+    nav ul{
+        flex-direction: row;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+/* ------This part is for content of covid-19 and faqs-----*/
+
+
+h1.faq {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 3em;
+    border-bottom: solid #000;
+    text-align: center;
+/*    margin: 13em 0 20px 0;*/
+    padding-top: 10px;
+/*    margin-top: 15em;*/
+}
+
+/*
+    h1{
+
+    }
+*/
+
+
+.covidtxt{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+
+label {
+    padding-top: 50px;
+    display: block;    
+	padding: 18px 25px;
+    margin: 0 0 1px 0;
+	cursor: pointer;
+	background: #ffed86;
+	border-radius: 10px;
+	color: #111;
+	transition: ease .5s;
+}
+label:hover {
+	background: #FBC410;
+}
+.content {
+    background: #E2E5F6;
+    padding: 16px 18px 15px 20px;
+    border: 1px solid #A7A7A7;
+	margin: 0 0 1px 0;
+	border-radius: 10px;
+    text-align: center;
+}
+
+.content {
+	display: none;
+}
+
+.box:checked + .content {
+	display: block;
+}
+
+.box {
+	display: none;
+}
+
+.faqs{
+    max-width: 850px;
+	margin: 0 auto;
+/*    top: 10%;*/
+    padding-bottom: 20px;
+}
+
+.covid{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 300px;
+    border: 2px solid #000;
+/*    position: absolute;*/
+/*
+    left: 17%;
+    top: 35%;
+*/
+    text-align: center;
+    font-family: mns-london Sans MS;
+    font-size: 2em;
+    font-weight: 800;
+    color: #111;
+    text-shadow: 2px 2px #fff;
+    background-color: #FBC410;
+}
+
+#covidtxt{
+    font-family: mns-london Sans MS;
+    color: #111;
+    text-align: center;
+    font-size: 2.9em;
+}
+
+#covidpara{
+        padding-top: 5px;
+        font-family: verdana, mns-london Sans MS;
+}
+
+.msg{
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 300px;
+/*    position: absolute;*/
+/*
+    left: 5%;
+    top: 89%;
+*/
+    text-align: center;
+    font-family: mns-london Sans MS;
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+#top{
+    font-family: verdana;
+    font-size: 30px;
+    padding-top: 10px;
+    
+}
+
+#msgcontent1{
+    padding: 25px;
+    text-decoration: none;
+    font-family: sans-serif Georgia;
+}
+
+#msgcontent2{
+    padding: 5px;
+    text-decoration: none;
+    font-family: sans-serif Georgia;
+}
+
+.reviews{
+    width: 80%;
+    height: auto;
+    border: 2px solid #000;
+/*
+    position: relative;
+    left: 0%;
+    top: 80%;
+    bottom: 20%;
+*/
+    text-align: center;
+    font-family: mns-london Sans MS;
+    font-size: 2em;
+    font-weight: 800;
+    color: #111;
+    text-shadow: 2px 2px #fff;
+    background-color: #FBC410;
+    margin-bottom: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reviews{
+    display: flex;
+    margin-left: 110px;
+    margin-right: 90px;
+    font-size: 23px;
+    font-family:serif;
+    text-shadow: none;
+    text-align: left;
+}
+
+.reviews > div{
+    margin: 20px;
+    padding: 50px;
+    padding-top: 20px;
+    }
+
+.rev{
+    margin-top: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+     font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1em;
+    border-bottom: solid #000;
+    }
+
+/* ------------This is for table content------------  */
+
+
+ table {
+     top: 10%;
+	 border-spacing: 1px;
+	 border-collapse: collapse;
+	 background: white;
+	 border-radius: 6px;
+	 overflow: hidden;
+	 max-width:1000px;
+	 width: 100%;
+	 margin: 0 auto;
+	 position: relative;
+     border: 1px #000;
+     
+}
+ table * {
+	 position: relative;
+     padding-bottom: 10px;
+}
+ table td, table th {
+	 padding-left: 8px;
+}
+ table thead tr {
+	 height: 60px;
+	 background: #FBC410;          /* #ffed86 */
+	 font-size: 25px;
+}
+ table tbody tr {
+     font-size: 20px;
+	 height: 48px;
+	 border-bottom: 1px solid #000;
+}
+ table tbody tr:last-child {
+	 border: 0;
+}
+ table td, table th {
+	 text-align: center;
+}
+ table td.l, table th.l {
+	 text-align: right;
+}
+ table td.c, table th.c {
+	 text-align: center;
+}
+ table td.r, table th.r {
+	 text-align: center;
+}
+
+tr:nth-of-type(even) { 
+    background: #ffed86;
+    color:#000000; 
+}
+tr:nth-of-type(odd) { 
+    background: #fff;
+    color:#000000; 
+}
+
+th {
+    background: #FBC410; 
+    color: #000000;
+    text-align: center;
+}
+
+/*
+tr:hover td{
+  color: #FF0000;
+  border-bottom: 1px solid #808080;}
+
+
+tr:hover td.effect div {
+  transform: scaleX(3);}
+*/
+
+tr:hover {
+    color: white;
+    background: #000;
+    font-weight: 900;
+}
+
+.tab{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 3em;
+    border-bottom: 0px;
+    text-align: center;
+    margin: 15px 0 20px 0;
+}
+
+ /* -------content for blogs---------- */
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;     
+  width: 30%;
+  padding: 5px;    
+} 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row{
+    margin-left: 80px;
+    margin-right: 50px;
+}
+ .zoom {
+/*  padding: 20px;*/
+  transition: transform .2s;
+/*  margin: 0 auto;*/
+    margin-left: 25px;
+     margin-right: 20px;
+}
+
+/*
+.zoom:hover {
+  -ms-transform: scale(1.10); 
+  -webkit-transform: scale(1.10); 
+  transform: scale(1.10); 
+}
+*/
+
+.zoom:hover {
+  -ms-transform: scale(1.05); 
+  -webkit-transform: scale(1.05); 
+  transform: scale(1.05); 
+}
+
+.blogs{
+    font-size: 2.5em;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+.blogtxt1{
+    font-family: sans-serif Georgia;
+    font-size: 1.5em;
+    }
+
+.redly {
+    background: #b93232;
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto 22px auto;
+    width: 140px;
+    text-align: center;
+    padding: 6px 14px 8px 14px;
+    border-radius: 3px;
+}
+
+.rely:hover{
+    background: #fff;
+    color: #b93232;
+}
+
+#contact {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  overflow: hidden;
+  padding-bottom: 200px;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  font: 300 60px 'Oswald', sans-serif;
+  letter-spacing: 6px;
+  color: #111;
+  margin-bottom: 25px;
+}
+
+.contact-wrapper {
+  margin: 0 auto;
+  padding-top: 20px;
+  position: relative;
+  max-width: 70%;
+}
+
+/* Begin Left Contact Page */
+.form-horizontal {
+  float: left;
+  max-width: 400px;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+.form-control, textarea {
+  max-width: 100%;
+  background-color: #fff;
+  color: #111;
+  letter-spacing: 1px;
+}
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 400px;
+  overflow: hidden;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.buttony {
+  width: 400px;
+  height: 34px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font: 300 14px 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+
+.buttony:hover {
+  -webkit-transform: translate3d(0px, -29px, 0px);
+          transform: translate3d(0px, -29px, 0px);
+}
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+  max-width: 95%;
+  float: right;
+  margin-top: 5px;
+/*  border: 1px solid #111;    */
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #aaa;
+}
+
+.contact-text {
+  font: 300 18px 'Lato', sans-serif;
+  letter-spacing: 1.9px;
+  color: #111;
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  color: #111;
+  text-decoration: none;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+
+/* Social Media Icons */
+.social-media-list {
+  position: relative;
+  font-size: 2.3rem;
+  text-align: center;
+  width: 100%;
+}
+
+.social-media-list li a {
+  color: #fff;
+}
+
+.social-media-list li {
+  position: relative; 
+  top: 0;
+  left: -20px;
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  margin: 10px auto;
+  line-height: 70px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(27,27,27);
+  cursor: pointer; 
+  -webkit-transition: all .2s ease-in-out; 
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #fff;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: #fff; 
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;  
+  -webkit-transform: scale(1.12);  
+          transform: scale(1.12);
+  -webkit-transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+          transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+}
+
+.social-media-list li:hover a {
+  color: #111;
+}
+
+.copyright {
+  font: 200 14px 'Oswald', sans-serif;
+  color: #555;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+hr {
+  border-color: rgba(255,255,255,.8); ;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    
+    /* faqs and covid-19 content */
+     .reviews, .covid{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .reviews{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: auto;
+        flex-direction: column;   
+    }
+    .rev{
+        margin-top: 400px;
+    }
+    .reviews > div{
+    margin: 20px;
+    padding: 10px;
+  
+    }
+    
+    body {
+    position: relative;
+    background: #FFF;
+    left: auto;
+    background-color: white;
+
+    }
+    .covid{
+        width: 700px; 
+        height: 300px;
+        top: 10%;
+        left: 5%;
+    }
+    
+    .msg{
+        height: 400px;
+        width: 600px;
+        left: 7%;
+    }
+    #covidtxt{
+        font-size: 2.5em;
+    }
+    
+    .faqs{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+/*        top: 0%;*/
+    }
+    /* ---------for table content-----------    */
+    table {
+		 display: block;
+         background: #FBC410;     /*#9bc86a;*/
+         font-size: 1.5em;
+         font: 400 25px 'Calibri', 'Arial';
+         padding: 20px;    
+	}
+	 table > *, table tr, table td, table th {
+		 display: block;
+	}
+	 table thead {
+		 display: none;
+	}
+	 table tbody tr {
+		 height: auto;
+		 padding: 8px 0;
+	}
+	 table tbody tr td {
+		 padding-left: 45%;
+		 margin-bottom: 12px;
+	}
+	 table tbody tr td:last-child {
+		 margin-bottom: 0;
+	}
+	 table tbody tr td:before {
+		 position: absolute;
+		 font-weight: 700;
+		 width: 40%;
+		 left: 10px;
+		 top: 0;
+	}
+	 table tbody tr td:nth-child(1):before {
+		 content: "S.No";
+	}
+	 table tbody tr td:nth-child(2):before {
+		 content: "ITEM NAME";
+	}
+	 table tbody tr td:nth-child(3):before {
+		 content: "PRICE";
+	}
+	 table tbody tr td:nth-child(4):before {
+		 content: "QUANTITY SOLD";
+	}
+	 table tbody tr td:nth-child(5):before {
+		 content: "RATING";
+	}
+     blockquote {
+	 color: white;
+	 text-align: center;
+}
+
+
+/* content for b*/
+.zoom:hover {
+  -ms-transform: scale(1.10); 
+  -webkit-transform: scale(1.10); 
+  transform: scale(1.10); 
+} 
+
+  img{
+        width: 50%;
+        height: 60%;
+    }
+    .blogtxt1{
+        font-family: sans-serif Georgia;
+        font-size: 1.0em;
+    }
+    nav ul{
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-right: 10px;
+        padding: 0;
+        border-top: 1px solid;
+    }
+    nav li{
+        border: 1px solid;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    #headbanner{
+        width: 80%;
+        height: 80%;
+    }
+    nav ul{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .productsgrid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .line {
+  border: 1px solid #FBC410 ;
+    width: 100%;
+  height: auto;        
+           }
+    .orderinfo{
+        flex-direction: column;
+        align-content: center;
+    }
+    .footergrid{
+        flex-direction: column;
+        align-content: center;
+    }
+.footergrid > div {
+  margin-right: auto;
+}
+    .cards{
+        flex-direction: row;
+        margin: auto;
+        justify-content: center;
+    }
+    .cards > img{
+        width: 45px;
+        height: auto;
+    }
+    #cardtxt{
+        text-align: center;
+    }
+    .column {
+  float: left;
+  width: 25%;
+  padding: 5px;    
+            }
+    .covid{ 
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;   
+    }
+    .msg{
+             display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;  
+    }
+    
+        #contact {
+        height: 1000px;
+    }
+  .section-header {
+    font-size: 65px;
+  }
+  .direct-contact-container, .form-horizontal {
+    float: none;
+    margin: 10px auto;
+  }  
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 300px;
+  }    
+  .social-media-list li {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+  .social-media-list li:after {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
+    
+
+/* ------This part is for content of covid-19 and faqs-----*/
